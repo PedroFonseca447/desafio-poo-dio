@@ -4,7 +4,7 @@ public class Curso extends Conteudo{
 
   private int cargaHoraria;
 
-@Override
+
 public double calcularXP(){
     return XP_PADRAO + cargaHoraria; 
 }
@@ -27,6 +27,13 @@ public void setCargaHoraria(int cargaHoraria) {
 @Override
 public String toString() {
     return "Curso [titulo=" + getTitulo() + ", descricao=" + getDescricao() + ", cargaHoraria=" + cargaHoraria + "]";
+}
+
+
+@Override
+public double calcularXp() {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'calcularXp'");
 }
 
 

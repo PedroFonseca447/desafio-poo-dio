@@ -1,12 +1,15 @@
 import java.time.LocalDate;
 
+import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Mentoria;
+
 public class main {
     public static void main(String[] args) {
         Curso curso = new Curso();
 
         curso.setTitulo("CURSO PYTHON");
         curso.setDescricao("descricao do curso");
-        curso.cargaHoraria(8);
+        curso.setCargaHoraria(8);
 
         Mentoria mentoria = new Mentoria();
 
